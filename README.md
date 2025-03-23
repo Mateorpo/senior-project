@@ -4,6 +4,8 @@ This senior capstone project aims to build models that predict house prices, and
 # Dataset
 - [House Prices - Advanced Regression Techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
 - A large dataset based in Ames City, Iowa, containing housing data from 2006 - 2009
+- train.csv and test.csv files in the repository
+- data_description.txt explains what each variable in the dataset is
 
 # Libraries Used
 - NumPy
@@ -16,8 +18,28 @@ This senior capstone project aims to build models that predict house prices, and
 - Pickle
 - XGBoost
 
-# Data Preprocessing
-
 # Models Implemented
+- Linear Regression
+- SVR
+- SGDRegressor
+- KNeighbors Regressor
+- Gaussian Process Regressor
+- Decision Tree
+- Random Forest
+- Gradient Boosting Regressor
+- XGB Regressor
+- MLP Regressor
+- Deep Neural Networks
+
+# Best Model: Gradient Boosting Regressor
+- Score of 86%
+- Most important features: Condition 1, Exterior1st, LotConfig, LotFrontage, Alley, Utilities, MasVnrType, YearRemodAdd, RoofStyle, and LandSlope
+- Basing our application off of this model
+
+# How to Run the Model: Google Collab
+1. Download the train.csv, test.csv, and python files to your Google Drive
+2. Create a folder in Google Drive called "project" and place the files in there
+3. Open file in Google Collab
+4. Press "Runtime" at the top and select "Run all"
 
 

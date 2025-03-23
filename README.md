@@ -37,7 +37,7 @@ This senior capstone project aims to build models that predict house prices, and
 - Basing our application off of this model
 
 # How to Run the Model: Google Collab
-1. Download the train.csv, test.csv, and real_estate_price_prediction_model.pynb to your Google Drive
+1. Download the train.csv, test.csv, and real_estate_price_prediction_model.ipynb to your Google Drive
 2. Create a folder in Google Drive called "project" and place the files in there
 3. Open file in Google Collab
 4. Press "Runtime" at the top and select "Run all"

@@ -43,5 +43,7 @@ This senior capstone project aims to build models that predict house prices, and
 4. Press "Runtime" at the top and select "Run all"
 
 # How to run React  
-1.
-
+1. Create folder house_prediction
+2. Create folders backend and frontend
+3. In backend paste files (app.py; and folders model(scaler.pkl; house_price_model.pkl) venv(libraries requiered)
+4. In frontend paste files (index.html, package.json, vit.config.js; create folder src(App.css; App.jsx; index.css; main.jsx subfolder components(PredictionForm.css; PredicitonForm.jsx; PredictionResults.css; PredictionResults.jsx)

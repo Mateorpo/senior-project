@@ -47,3 +47,35 @@ This senior capstone project aims to build models that predict house prices, and
 2. Create folders backend and frontend
 3. In backend paste files (app.py; and folders model(scaler.pkl; house_price_model.pkl) venv(libraries requiered)
 4. In frontend paste files (index.html, package.json, vit.config.js; create folder src(App.css; App.jsx; index.css; main.jsx subfolder components(PredictionForm.css; PredicitonForm.jsx; PredictionResults.css; PredictionResults.jsx)
+
+  After setting up the folders:
+
+1.Navigate to the backend folder
+  cd backend
+2.Create and activate Python virtual environment
+  python -m venv venv
+  source venv/bin/activate 
+3.Install required Python dependencies
+  pit install -r requiremennts. txt
+4.start the flask server
+  Python app.py
+
+Flask server will now run on
+  http://127.0.0.1:5020
+Keep this terminal running
+
+
+1. Open a new terminal and navigate to the frontend folder:
+  cd frontend
+2. Install the required Node.js dependencies:
+  npm install
+3. Start the React development server:
+  npm run dev
+
+React app will now run on localhost
+
+
+1. Open browser and go to: localhost
+2. Fill out the required fields
+3. Click predict buttong
+4. Predicted price will be displayed on the screen 

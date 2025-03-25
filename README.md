@@ -42,4 +42,6 @@ This senior capstone project aims to build models that predict house prices, and
 3. Open file in Google Collab
 4. Press "Runtime" at the top and select "Run all"
 
+# How to run React  
+1.
 
